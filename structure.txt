@@ -1,0 +1,11 @@
+src/
+└── data_module/
+    ├── __init__.py
+    ├── data_loader.py          # Carga los datos (CSV, SQL, API, etc.)
+    ├── data_cleaning.py        # Limpieza de columnas, strings, nulos, duplicados
+    ├── data_imputation.py      # Relleno de valores faltantes
+    ├── data_new_features.py    # Generación de nuevas features / columnas derivadas
+    ├── data_validation.py      # (opcional) validación de tipos, rangos, consistencia
+    ├── data_splitting.py       # (opcional) train/test split o cross-validation
+    ├── data_saving.py          # Guarda el dataset procesado
+    └── pipeline.py             # Orquesta todo el flujo anterior
